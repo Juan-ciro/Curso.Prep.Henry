@@ -110,10 +110,11 @@ function multiplicarArgumentos() {
   let total = 1;
   if (arguments.length < 1){
     return 0;
-  }for (var i = 0; i < arguments.length; i++){
+  }
+    for (var i = 0; i < arguments.length; i++){
     total = total * arguments[i];
   }
-  return total;
+   return total;
 }
 
 // No modificar nada debajo de esta línea
